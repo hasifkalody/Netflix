@@ -1,0 +1,21 @@
+.navBar{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+}
+.leftSection{
+    padding: 20px;
+}
+.rightSection{
+   padding: 20px;
+}
+.leftSection img{
+    width:80px; 
+}
+.rightSection img{
+    width: 80px;   
+}
+

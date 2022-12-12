@@ -1,0 +1,35 @@
+.posterimg {
+    width: 300px;
+    object-fit: fill;  
+    scroll-snap-align: end; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.small{
+    width: 200px;
+    object-fit: fill;  
+    scroll-snap-align: end; 
+    margin-right: 10px;
+    cursor: pointer;  
+}
+.posterimg:hover,.small:hover{
+    transform: scale(1.05);
+}
+.Row{
+    width: 100vw;
+    color: white;
+    padding-left: 1rem;
+    padding-top:.4rem;
+    overflow: hidden;
+}
+
+.posters{
+    display: flex;
+    overflow-X: scroll;
+    overflow-y: hidden;
+    scroll-snap-type:X mandatory;  
+    padding-top:.3rem; 
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
